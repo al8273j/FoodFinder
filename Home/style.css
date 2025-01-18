@@ -1,0 +1,71 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+h1 {
+  color: white; 
+  text-align: center;
+  margin: 0;
+		font-family: 'Monterserrat';
+		font-style: normal;
+		font-weight: 400;
+		src: url(/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+                                              
+}
+
+body {
+  background: url('vegetables.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+   .button {
+      background-color:#03AC13;
+      color:white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+     text-shadow: 1px 1px 1px #000;
+      display: inline-block;
+      font-size: 30px;
+     font-family: sans-serif;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 30px;
+     background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    top:65%;
+       left:37%;
+       position: absolute;
+       z-index: 2;
+   }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+
+}
+
+.centered-element {
+  margin: 0;
+  position: absolute;
+  top: 0%;
+  transform: translateY(-50%);
+}
+
+   .center {
+        padding: 5% 0;
+
+   .cracker {
+        padding: 10% 0;
+        border: 3px dashed #1c87c9;
+      }
